@@ -1,4 +1,4 @@
-package com.problems.arrays;
+package com.problems.arrays.hard;
 
 public class MedianOfSortedArrays {
     public static void main(String[] args){

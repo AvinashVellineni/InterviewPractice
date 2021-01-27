@@ -1,4 +1,4 @@
-package com.problems.arrays;
+package com.problems.arrays.hard;
 
 import java.util.ArrayList;
 import java.util.Arrays;

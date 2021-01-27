@@ -1,4 +1,4 @@
-package com.problems.arrays;
+package com.problems.arrays.medium;
 
 public class MaxContainerArea {
     public static void main(String[] args){
