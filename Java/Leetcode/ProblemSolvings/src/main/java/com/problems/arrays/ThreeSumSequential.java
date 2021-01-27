@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class ThreeSumSequential {
     public static void main(String[] args){
-        int[] numbers = new int[] {0};
+        int[] numbers = new int[] {-1,0,1,2,-1,-4};
         System.out.println(threeSum(numbers));
     }
     public static List<List<Integer>> threeSum(int[] nums) {
