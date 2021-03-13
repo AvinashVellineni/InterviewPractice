@@ -1,10 +1,11 @@
 package com.problems.models;
 
 public class ListNode {
-    private int val;
+    public int val;
     public ListNode next;
-    ListNode(int x){
+    public ListNode(int x){
         this.val=x;
         next=null;
     }
+    public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
