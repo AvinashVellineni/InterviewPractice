@@ -13,10 +13,8 @@ public class TwoSumLessThanK {
         int i = 0;
         int j=A.length -1;
         while (i<j){
-            if(A[i]+A[j] > K){
+            if(A[i]+A[j] >= K){
                 j--;
-            }else if(A[i]+A[j] == K){
-                return K;
             }else {
                 max = Math.max(max,A[i]+A[j]);
                 i++;
